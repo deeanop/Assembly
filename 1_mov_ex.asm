@@ -26,8 +26,9 @@ main proc    ;inceperea unei proceduri
     mov var2,al
     mov var1,ah
     
+    mov ah, 4Ch
+    int 21h
     
-    
-    main endp
+    end main
 
 end
