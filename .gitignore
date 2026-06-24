@@ -1,0 +1,96 @@
+# =========================
+# General build artifacts
+# =========================
+*.o
+*.obj
+*.out
+*.elf
+*.bin
+*.hex
+*.map
+*.dis
+*.asm.s
+*.lst
+
+# Executabile
+a.out
+*.exe
+
+# =========================
+# Build directories
+# =========================
+build/
+bin/
+dist/
+out/
+
+# =========================
+# GCC / toolchain caches
+# =========================
+*.d
+*.dep
+*.dmp
+
+# =========================
+# Debug files
+# =========================
+*.gdb
+*.log
+core
+core.*
+
+# =========================
+# Architecture-specific outputs
+# =========================
+# x86
+*.x86
+*.x86_64
+
+# ARM
+*.arm
+*.aarch64
+
+# MIPS
+*.mips
+*.mipsel
+*.mips64
+
+# RISC-V
+*.riscv
+*.rv32
+*.rv64
+
+# =========================
+# QEMU / emulator files
+# =========================
+qemu.log
+*.img
+*.qcow2
+
+# =========================
+# IDE / editor files
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Assembly listing extras (NASM / GAS)
+# =========================
+*.lst
+*.listing
+
+# =========================
+# Temporary files
+# =========================
+tmp/
+temp/
+*.tmp
